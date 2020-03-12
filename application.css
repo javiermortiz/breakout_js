@@ -1,0 +1,67 @@
+.splash {
+ background-image: url("./assets/brick_wall.jpg");
+ background-size: cover;
+ height: 100vh;
+}
+
+.title{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.title-name {
+    color: black;
+    background-color: white;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.title-author {
+    position: absolute;
+    top: 115px;
+    right: 6px;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.splash-navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.splash-navbar-list {
+    display: flex;
+    width: 337px;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.splash-navbar-list li {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.splash-navbar-list li:hover {
+    color: white;
+    background-color: black;
+}
